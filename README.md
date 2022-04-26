@@ -1,4 +1,6 @@
 # UAV-Based-Cellular-Communication-Multi-Agent-DRL-Solution
-UAV-based Cellular-Communication: Multi-Agent Deep Reinforcement Learning for Interference Management
+
+
+Execution Process of trained model. Green: UAV, Red: Mobile Devices
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/5OIFD02gico/0.jpg)](http://www.youtube.com/watch?v=5OIFD02gico "Simulation of Multi-Agent UAVs as Aerial Base Stations")
