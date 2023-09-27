@@ -12,3 +12,7 @@ Execution Process of trained model.
 Read Report for detailed information about system model, system design, multi-agent cooperative deep reinforcement learning algorithm etc.
 
 [Detailed Report](DetailedReportAndArticle.pdf)
+
+#Running Demo:
+pip install -r requirements.txt
+python Demo.py

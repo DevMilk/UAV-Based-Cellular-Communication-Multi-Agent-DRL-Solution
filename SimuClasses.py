@@ -145,7 +145,7 @@ def test_env(file_name,user_data_path,random_env=False,fig=None,step_count=64,pl
     sum_rates_per_step = []
     if(fig==None):
       fig = plt.figure(figsize=(10,10),dpi=100)   
-      ax = Axes3D(fig)
+      ax = fig.add_subplot(projection='3d');
       fig2,ax1 = plt.subplots(figsize=(5,5),dpi=100)
       ax1.set_yticks([i for i in range(5,20)])
       
@@ -616,7 +616,7 @@ class UavSimuEnv:
       Simulasyonu görsel olarak yazdırır
     """
     fig = plt.figure(figsize=(10,10))
-    ax = Axes3D(fig)
+    ax = fig.add_subplot(projection='3d');
     uav_coords,ue_coords = self.get3DMap()
     clear_output(wait=True)
     ax.set_xlim3d(0,self.env_dim[0])
