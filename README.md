@@ -9,7 +9,7 @@ Video of Execution Process after training.
 
 ---
 # System Design
-Read Report for detailed information about system model, system design, multi-agent cooperative deep reinforcement learning algorithm etc.
+Read report for detailed information about System Model, System Design, Multi-Agent Cooperative Deep Reinforcement Learning Algorithm etc.
 
 [Detailed Report](DetailedReportAndArticle.pdf)
 
